@@ -21,7 +21,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/firstTest.js'
+        './test/specs/**/webTablesValidation.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -111,6 +111,7 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: ['chromedriver'],
+    //services: ['selenium-standalone'],
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
