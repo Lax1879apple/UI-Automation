@@ -21,7 +21,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/webTablesValidation.js'
+        './test/specs/**/windowsFrames.js'
     ],
     // Patterns to exclude.
     exclude: [
